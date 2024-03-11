@@ -59,8 +59,8 @@ docker-compose logs frontend
 docker-compose logs mysql-container
  ```
 
-# Note
-# If you are facing error with Database connection refused.. then please delete the docker container and image and reinstall it.
+Note:
+If you are facing error with Database connection refused.. then please delete the docker container and image and reinstall it.
 
 ## Sample Videos
 - https://github.com/ketankanhasofttech/laravel-react-docker-test/assets/106151538/06651de7-7d89-4c13-8769-d4a288a14c61
