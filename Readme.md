@@ -1,7 +1,3 @@
-# Practical Docker Project
-
-This project demonstrates the usage of Docker to set up a development environment with Laravel as the backend, React as the frontend, and MySQL as the database.
-
 ## Getting Started
 
 ### Prerequisites
@@ -14,7 +10,7 @@ This project demonstrates the usage of Docker to set up a development environmen
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/practical-docker.git
+    https://github.com/ketankanhasofttech/laravel-react-docker-test.git
     cd practical-docker
     ```
 2. change Stripe public key and secret key in environment files in ./frontend and ./backend
@@ -61,7 +57,13 @@ If you encounter any issues, consider checking the logs of each container:
 docker-compose logs laravel-container
 docker-compose logs frontend
 docker-compose logs mysql-container
-
+ ```
 
 # Note
 # If you are facing error with Database connection refused.. then please delete the docker container and image and reinstall it.
+
+## Sample Videos
+- https://github.com/ketankanhasofttech/laravel-react-docker-test/assets/106151538/06651de7-7d89-4c13-8769-d4a288a14c61
+- https://github.com/ketankanhasofttech/laravel-react-docker-test/assets/106151538/69a9e19b-9f61-40a9-b2a6-3ffb3ba364a1
+
+
